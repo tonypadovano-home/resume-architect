@@ -1,0 +1,36 @@
+.page-wrapper {
+  min-height: 100vh;
+  background-color: #e8ecef;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.resume-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 850px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+@media (max-width: 600px) {
+  .resume-container {
+    padding: 1.5rem;
+  }
+}
+
+@media print {
+  .page-wrapper {
+    background-color: white;
+    padding: 0;
+  }
+
+  .resume-container {
+    box-shadow: none;
+    max-width: 100%;
+    padding: 1rem;
+  }
+}

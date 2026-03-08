@@ -1,0 +1,19 @@
+.skills-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.skill-category {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.skill-category-name {
+  font-weight: 700;
+  color: #2d3748;
+}
+
+.skill-list {
+  color: #4a5568;
+}

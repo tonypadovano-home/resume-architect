@@ -1,0 +1,62 @@
+.experience-item {
+  margin-bottom: 1.25rem;
+}
+
+.experience-item:last-child {
+  margin-bottom: 0;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.4rem;
+}
+
+.experience-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-company {
+  font-weight: 700;
+  color: #2d3748;
+  font-size: 0.95rem;
+}
+
+.experience-title {
+  font-style: italic;
+  color: #4a5568;
+  font-size: 0.9rem;
+}
+
+.experience-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.experience-dates {
+  font-size: 0.875rem;
+  color: #4a5568;
+  font-weight: 500;
+}
+
+.experience-location {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.experience-highlights {
+  margin: 0.25rem 0 0 1.25rem;
+  padding: 0;
+  list-style-type: disc;
+}
+
+.experience-highlights li {
+  font-size: 0.875rem;
+  color: #4a5568;
+  margin-bottom: 0.2rem;
+  line-height: 1.5;
+}
